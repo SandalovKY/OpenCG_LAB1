@@ -127,7 +127,7 @@ namespace WindowsFormsApp2
         {
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Filter = "JPeg Image|*.jpg|Bitmap Image|*.bmp|Gif Image|*.gif|PNG Image|*.png";
-            saveFileDialog1.Title = "Сохранение";
+            saveFileDialog1.Title = "Save an Image File";
             saveFileDialog1.ShowDialog();
 
             if (saveFileDialog1.FileName != "")
